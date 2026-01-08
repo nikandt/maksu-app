@@ -1,0 +1,95 @@
+  {
+	  "schema_version": 1,
+    "brand_key": "maksu",
+    "domain_name": "maksumuistutus.fi",
+    "allowed_hosts": [
+      "maksumuistutus.fi",
+      "www.maksumuistutus.fi",
+      "staging.maksumuistutus.fi"
+    ],
+    "display_name": "Maksumuistutus",
+	"identity": {
+		"tagline": "Automate invoice reminders",
+		"logo_letter": "M",
+		"css_class": "brand-maksu",
+		"footer_description": "Automated, polite reminders that actually get your invoices paid – without becoming a debt collector."
+	  },
+    "meta": {
+      "title": "Maksumuistutus | Payment reminders that work",
+      "description": "Send psychologically optimized SMS and email reminders before you resort to expensive debt collection.",
+      "ogTitle": "Maksumuistutus | Payment reminders that work",
+      "ogDescription": "Automate friendly, effective payment reminders that help you get paid before collection.",
+      "ogImage": "https://maksumuistutus.fi/mobile_mockup.png",
+      "twitterCard": "summary_large_image"
+    },
+	"i18n": {
+    "defaultLocale": "fi",
+	 "namespace_strategy": "modules"
+  },
+"supported_languages": ["fi", "en", "sv"],
+  "locale_defaults": {
+    "default_country": "FI",
+    "default_currency": "EUR",
+    "default_timezone": "Europe/Helsinki",
+    "default_vat_mode": "inclusive"
+  },
+"ui": {
+    "theme": {
+      "accentColor": "#2563EB",
+      "radius": "lg",
+      "mode": "system"
+    }
+  },
+	"public": {
+		"about": true,
+		"support": true,
+		"pricing": true,
+		"landing": true,
+		"faq": true,
+		"privacy": true,
+		"terms": true,
+		"dpa": true
+	},
+	"public_extras": {
+		"invoice_generator": true
+	},
+    "features": {
+	  "home": true,
+      "invoicing": true,
+	  "reminders": true,
+	  "crm": true,
+      "jobs": false,
+	  "billing": true,
+      "commissioner_view": false,
+	  "work_reports": false,
+	  "hr_management": false,
+	  "credits": true,
+	  "products": true,
+	  "integrations": false,
+	  "matchmaking": true
+    },
+	
+	"support": {
+  "email": "support@maksumuistutus.fi",
+  "chat": {
+      "enabled": false,
+      "provider": "crisp",
+      "config": {}
+    },
+    "businessHours": {
+      "timezone": "Europe/Helsinki",
+      "hours": [
+        { "weekday": "mon", "from": "09:00", "to": "18:00" },
+        { "weekday": "tue", "from": "09:00", "to": "18:00" },
+        { "weekday": "wed", "from": "09:00", "to": "18:00" },
+        { "weekday": "thu", "from": "09:00", "to": "18:00" },
+        { "weekday": "fri", "from": "09:00", "to": "18:00" }
+      ]
+    }
+},
+  "integrations": {
+    "stripe": { "enabled": true },
+    "supabase": { "enabled": true }
+  }
+
+ }

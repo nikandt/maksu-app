@@ -1,0 +1,38 @@
+/* Maksumuistutus Brand Theme - Blue/Professional for Invoice Reminders */
+/* Apply these rules to the root element when the brand-maksu class is active */
+html.brand-maksu {
+    /* Colors (HSL values) */
+    --primary: 221 83% 53%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222 20% 15%;
+    
+    --accent: 217 91% 95%;
+    --accent-foreground: 221 83% 45%;
+    
+    --ring: 221 83% 53%;
+
+    /* Fonts */
+    --font-heading: 'Merriweather', serif; /* Maksu uses Merriweather for headings */
+    --font-body: 'Inter', sans-serif;      /* Maksu uses Inter for body */
+    
+    /* Gradients for hero */
+    --gradient-hero: linear-gradient(135deg, hsl(221 83% 53% / 0.1) 0%, hsl(217 91% 95% / 0.3) 50%, hsl(221 83% 53% / 0.05) 100%);
+    --gradient-pattern: radial-gradient(circle at 20% 50%, hsl(221 83% 53% / 0.08) 0%, transparent 50%), radial-gradient(circle at 80% 80%, hsl(217 91% 60% / 0.06) 0%, transparent 50%);
+}
+
+/* Maksumuistutus Dark Theme */
+html.dark.brand-maksu {
+    --primary: 221 83% 60%;
+    --primary-foreground: 0 0% 100%;
+    
+    --accent: 217 32% 22%;
+    --accent-foreground: 217 80% 75%;
+    
+    --ring: 221 83% 60%;
+    
+    /* Gradients for hero - darker versions */
+    --gradient-hero: linear-gradient(135deg, hsl(221 83% 60% / 0.15) 0%, hsl(217 32% 22% / 0.3) 50%, hsl(221 83% 60% / 0.08) 100%);
+    --gradient-pattern: radial-gradient(circle at 20% 50%, hsl(221 83% 60% / 0.12) 0%, transparent 50%), radial-gradient(circle at 80% 80%, hsl(217 80% 75% / 0.08) 0%, transparent 50%);
+}

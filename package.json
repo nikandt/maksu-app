@@ -1,5 +1,38 @@
 {
-  "dependencies": {
-    "@nikandt/pinot-client": "git+ssh://git@github.com/nikandt/pinot-client.git#v0.3.0"
-  }
+  "name": "@pinot/maksu-app",
+  "version": "0.1.0",
+  "author": "Tessa Nikander <me@tessanikander.com> (https://tessanikander.com/)",
+  "license": "MIT",
+  "description": "",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikandt/maksu-app.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nikandt/maksu-app/issues"
+  },
+  "homepage": "https://github.com/nikandt/maksu-app#readme",
+  "files": [
+    "src/**/*",
+    "package.json",
+    "README.md"
+  ],
+  "exports": {
+    ".": "./src/index.ts",
+    "./landing": "./src/pages/public/Landing.tsx",
+    "./styles.css": "./src/brand/styles.css",
+    "./assets/*": "./src/assets/img/*"
+  },
+  "private": true,
 }

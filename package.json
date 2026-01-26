@@ -30,7 +30,7 @@
   ],
   "exports": {
     ".": "./src/index.ts",
-    "./landing": "./src/pages/public/Landing.tsx",
+    "./landing": "./src/pages/public/LandingMaksu.tsx",
     "./styles.css": "./src/brand/styles.css",
     "./assets/*": "./src/assets/img/*"
   },

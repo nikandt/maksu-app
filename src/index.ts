@@ -1,1 +1,1 @@
-export { default as Landing } from "./pages/public/Landing";
+export { default as LandingMaksu } from "./pages/public/Landing";
